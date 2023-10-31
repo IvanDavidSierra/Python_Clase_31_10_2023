@@ -14,6 +14,8 @@ if (ladoUno + ladoDos > ladoTres) and (ladoUno + ladoTres > ladoDos) and (ladoDo
     print("Es un triangulo escaleno")
 else:
   print("No es un triangulo")"""
+
+
 """Leer si un numero entero y determinar si es mayor o menor o es igual
 
 numero = int(input("Ingrese un numero: "))
@@ -42,6 +44,9 @@ elif numeroDos > numeroUno and numeroDos > numeroTres:
   print("El numero mayor es: ", numeroDos)
 elif numeroTres > numeroUno and numeroTres > numeroDos:
   print("El numero mayor es: ", numeroTres)
+else:
+  print("Hay numeros mayores que son iguales")
+  
 if numeroUno < numeroDos and numeroUno < numeroTres:
   print("El numero menor es: ", numeroUno)
 elif numeroDos < numeroUno and numeroDos < numeroTres:
@@ -49,4 +54,4 @@ elif numeroDos < numeroUno and numeroDos < numeroTres:
 elif numeroTres < numeroUno and numeroTres < numeroDos:
   print("El numero menor es: ", numeroTres)
 else:
-  print("Hay numeros que son iguales")
+  print("Hay numeros menores que son iguales")
